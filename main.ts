@@ -1,5 +1,3 @@
-let start = 0
-let passtime = 0
 input.onButtonPressed(Button.A, function () {
     start = input.runningTime()
     basic.showIcon(IconNames.SmallHeart)
@@ -11,3 +9,6 @@ input.onButtonPressed(Button.B, function () {
     basic.showNumber(passtime % 1000)
     basic.showIcon(IconNames.Yes)
 })
+let passtime = 0
+let start = 0
+basic.showIcon(IconNames.Yes)
